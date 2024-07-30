@@ -242,7 +242,7 @@ font-weight: 700;
 font-size: clamp(18px, 4vh, 30px);
 line-height: 100%;
 color: #fff;
-font-family: 'EU', sans-serif;
+font-family: 'Play', sans-serif;
 }
 .burder__list-item:not(:first-child) p {
   font-weight: 400;

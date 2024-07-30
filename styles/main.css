@@ -318,12 +318,10 @@ img.flag {
     }
     .blur {
         display: block;
-  
         top: 4px;
-        height: 128px;
+        height: 230px;
         left: 32px;
-        width: 303px;
-    
+   
     }
     .flagmob {
         display: block;
