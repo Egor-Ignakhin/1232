@@ -180,7 +180,6 @@ li.burder__list-item:nth-child(4) img:first-of-type {
 }
 li.burder__list-item:nth-child(2) img:first-of-type {
   transform: scale(1.1) translate(21px, 10px);
-  right: 40px!important;
 }
 .burder__list-item:first-child {
   background-repeat: no-repeat;
@@ -233,14 +232,14 @@ li.burder__list-item:nth-child(2) img:first-of-type {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   height: 100%;
   position: relative;
 }
 .burder__list-item:not(:first-child) span {
   font-style: italic;
 font-weight: 700;
-font-size: clamp(18px, 4vh, 30px);
+font-size: clamp(26px, 4vh, 30px);
 line-height: 100%;
 color: #fff;
 font-family: 'Play', sans-serif;
@@ -306,7 +305,14 @@ li.burder__list-item:nth-child(3) {
   left:-12px;
   top:-5px;
 }
-
+.burder__list-item:nth-child(3) .burder__list-item-text {
+  margin-left: 30px;
+}
+@media (min-width:500px) {
+  .burder__list-item:nth-child(4) div {
+    margin-left: 31px;
+}
+}
 @media (max-width: 500px) {
   .buger__conent {
     width: 100%;
@@ -317,7 +323,26 @@ li.burder__list-item:nth-child(3) {
   .modal__line {
     display: none;
   }
+  .burder__list-item:nth-child(3) .burder__list-item-text {
+    margin-left: 0;
+  }
+  .burder__list-item a {
+    justify-content: start;
+  }
+  .burder__list-item:not(:first-child) a img:first-of-type {
+    position: absolute;
+    right: 0;
+}
+.burder__list-item:nth-child(2) a img:first-of-type {
+  right: 40px;
   
+}
+li.burder__list-item:nth-child(3) img:first-of-type {
+  transform: scale(0.9) translate(2vw, 12px);
+}
+.burder__list-item:last-child a {
+  justify-content: center;
+}
 }
 
 .footer {
@@ -412,18 +437,9 @@ li.burder__list-item:nth-child(3) img:first-of-type {
   margin-top: 20px;
 }
 li.burder__list-item:nth-child(3) img:first-of-type {
-  transform: scale(0.9) translate(3vw, 12px);
+  transform: scale(0.6) translate(13vw, 12px);
 }
 
-li.burder__list-item:nth-child(2) img:first-of-type,
-li.burder__list-item:nth-child(3) img:first-of-type,
-li.burder__list-item:nth-child(4) img:first-of-type {
-  position: absolute;
-  right: 0;
-}
-.burder__list-item:last-child a {
-  justify-content: center;
-}
 
 }
 @media (min-width:640px) {
