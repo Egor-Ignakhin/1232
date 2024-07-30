@@ -185,6 +185,7 @@ li.burder__list-item:nth-child(2) img:first-of-type {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../assets/images/Frame\ 657.png');
+  background-position: center;
 }
 .burder__list-item:first-child span {
   font-style: italic;
