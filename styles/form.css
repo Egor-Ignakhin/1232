@@ -68,6 +68,7 @@ input {
     font-size: 20px;
     line-height: 120%;
     color: #000;
+    font-family: 'Roboto';
 }
 form#myForm {
     display: flex;
@@ -199,7 +200,5 @@ textarea {
     .input-icon {
         width: 100vw;
     }
-    .burder__list-item:not(:first-child) a {
-        padding-left: 0px;
-    }
+ 
 }
