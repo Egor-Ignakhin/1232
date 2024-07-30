@@ -343,6 +343,9 @@ li.burder__list-item:nth-child(3) img:first-of-type {
 .burder__list-item:last-child a {
   justify-content: center;
 }
+li.burder__list-item:nth-child(3) img:first-of-type {
+  transform: scale(0.9) translate(8px, 12px)!important;
+}
 }
 
 .footer {
