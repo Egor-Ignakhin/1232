@@ -388,7 +388,8 @@ border:none;
 margin-top:15px
 }
 li.burder__list-item:nth-child(3) img:first-of-type {
-  transform: scale(0.9);
+  transform: scale(0.6) translate(49px, 12px);
+
 }
 @media (max-width:768px) {
   .footer__list {
@@ -411,6 +412,11 @@ li.burder__list-item:nth-child(3) img:first-of-type {
   transform:translateX(-50%);
   margin-top: 20px;
 }
+li.burder__list-item:nth-child(3) img:first-of-type {
+  transform: scale(0.6) translate(13vw, 12px);
+}
+
+
 }
 @media (min-width:640px) {
   .burger {
