@@ -44,4 +44,19 @@ perplButton.addEventListener('click', function() {
 console.log(window.innerHeight);
 console.log(window.innerWidth);
 
-document.querySelectorAll('.footer__list-item a')[0].addEventListener('click', () => alert('version:8'))
+document.querySelectorAll('.footer__list-item a')[0].addEventListener('click', () => alert('version:8'));
+
+//////////////
+const url = new URL(window.location.href);
+
+const menuOpenValue = url.searchParams.get('menuopen');
+
+if (menuOpenValue !== null) {
+    modalIsOpen = true;
+    document.querySelector('body').style.overflowY = 'hidden';
+    burgerMenu.style.display = 'block';
+    heightModal = document.querySelector('.burger__menu').offsetHeight
+    burgerLines[0].style.transform = 'translateY(300%) rotate(45deg)';
+    burgerLines[2].style.transform = 'translateY(-300%) rotate(-45deg)';
+    burgerLines[1].style.transform = 'scale(0)';
+}

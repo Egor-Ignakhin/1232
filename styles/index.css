@@ -155,10 +155,10 @@ ul, a, li {
 .overlay {
   background: #00000050;
   width: 100%;
-  height: auto;
   min-height: 100vh;
   display: flex;
   justify-content: end;
+  height: 100%;
 }
 .buger__conent {
   background-image: url('../assets/backgrounds/back.jpg');
