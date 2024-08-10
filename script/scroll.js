@@ -44,7 +44,6 @@ perplButton.addEventListener('click', function() {
 console.log(window.innerHeight);
 console.log(window.innerWidth);
 
-document.querySelectorAll('.footer__list-item a')[0].addEventListener('click', () => alert('version:8'));
 
 //////////////
 const url = new URL(window.location.href);
